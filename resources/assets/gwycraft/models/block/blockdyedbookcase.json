@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_column",
     "textures": {
-        "all": "gwycraft:blocks/blockdyedbookcase"
+        "end": "gwycraft:blocks/blockdyedplank",
+        "side": "gwycraft:blocks/blockdyedbookcase"
     }
 }
