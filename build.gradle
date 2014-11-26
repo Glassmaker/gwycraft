@@ -18,10 +18,13 @@ buildscript {
 // .\gradlew.bat setupDecomWorkspace --refresh-dependencies when changing forge version
 
 apply plugin: 'forge'
-minecraft { version = "1.7.2-10.12.2.1147" }
+minecraft {
+	version = "1.8-11.14.0.1239-1.8"
+	mappings = "snapshot_nodoc_20140930"
+}
 version = "0.1.8-pre3"
 group= "gwydion0917.gwycraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "gwycraft-mc172"
+archivesBaseName = "gwycraft-mc18"
 
 sourceSets.main{
   java{ srcDirs 'gwycraft_common' }
